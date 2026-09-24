@@ -75,18 +75,20 @@ body {
 .hero-content { position:relative; z-index:1; }
 .hero h1 { font-size:3rem; margin-bottom:10px;}
 .hero-subtitle { font-size:1.5rem; }
-
 .hero-offer {
-2
-color: #ffd700;
-3
-font-size: 1.3rem;
-4
-font-weight: bold;
-5
-margin-top: 10px;
-6
+    display: inline-block;
+    background: #ffcc00;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-transform: uppercase;
 }
+
+
 
 /* Products */
 .pricing-title h2 { font-size:2rem; text-align:center; margin-bottom:10px; color: var(--primary-dark);}
@@ -131,8 +133,12 @@ footer { background:#000; color:#fff; text-align:center; padding:20px 0; }
   .burger { display:flex; }
   .mobile-nav { display:none; }
   .mobile-nav.open { display:flex; }
-  .hero-offer {font-size: 1rem; line-height: 1.4; padding: 0 15px; margin-top: 8px;
-               .delivery-info {font-size: 0.95rem; padding: 0 15px; line-height: 1.4;}
+  .hero-offer {
+        font-size: 0.95rem;
+        padding: 10px 15px;
+        margin: 10px auto;
+        max-width: 90%;
+        display: block;
 }
   
 
